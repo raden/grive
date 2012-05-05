@@ -37,17 +37,20 @@
 It uses the <a href="https://developers.google.com/google-apps/documents-list/">Google Document List API</a> 
 to talk to the servers in Google. The code is written in standard C++.</p>
 
-<p>Currently as of version 0.0.2, grive can only do one-side synchronization from the Google Drive
-to local directory. It can only download everything you have in your Google Drive right now.</p>
+<p>Currently as of version 0.0.3, grive can do limited two-side synchronization between the Google Drive
+and local directory. It can download and upload changed files. The only thing missing is to upload
+new files from local directory.</p>
 
 <h3>Download</h3>
 
-<p>Current release is version 0.0.2.</p>
+<p>Current release is version 0.0.3.</p>
 
 Fedora x64 binaries can be found
-<a href="https://docs.google.com/open?id=0B6HkZFGcyk1-OUVlMW1zNGRoNGM">here</a>.
+<a href="https://docs.google.com/open?id=0B6HkZFGcyk1-UnNMa0FhRDV2OWM">here</a>.
 
 <h4>Packages</h4>
+
+<p>Version 0.0.2</p>
 
 <ul>
 <li><a href="http://www.foresightlinux.se/wiki-en/index.php?title=Grive">Foresight Linux</a>
@@ -66,6 +69,7 @@ Fedora x64 binaries can be found
 <li>libcurl</li>
 <li>json-c</li>
 <li>openssl</li>
+<li>CppUnit (optional, only for unit tests)
 </ul>
 
 <p>For the first time running grive, you should use the <code>"-a"</code> argument to grant permission
@@ -87,6 +91,10 @@ standard input of grive.</p>
 
 <p>If everything works fine, grive will create a <code>.grive</code> file in your home directory.
 It will also start downloading files from your Google Drive to your current directory.</p>
+
+<h3>Contributing</h3>
+
+<p>See the <a href="https://github.com/match065/grive/wiki">wiki</a> for coding standard.</p>
 
       </section>
     </div>
