@@ -1,4 +1,4 @@
-Grive 0.1.0
+Grive git versoin
 
 Grive is still considered experimental. It just downloads all the files in your google drive
 into the current directory. After you make some changes to the local files, run grive and
@@ -23,5 +23,8 @@ an authenication code. Copy-and-paste that to the standard input of grive.
 
 If everything works fine, grive will create a .grive file in your home directory.
 It will also start downloading files from your Google Drive to your current directory.
+
+For Ubuntu/Mint 11.10 users, go to build directory and run 'cmake ../' from that particular directory
+
 
 Enjoy!
