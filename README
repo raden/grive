@@ -1,4 +1,4 @@
-Grive git versoin
+Grive git version
 
 Grive is still considered experimental. It just downloads all the files in your google drive
 into the current directory. After you make some changes to the local files, run grive and
